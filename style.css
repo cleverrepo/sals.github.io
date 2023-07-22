@@ -114,6 +114,11 @@ body {
 
     box-shadow: 0 0 50px var(--second-main);
 }
+.navbar img{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
 
 .main {
     display: flex;
@@ -278,7 +283,7 @@ body {
     background-color: #0ef;
     box-shadow: 0 0 60px #0ef;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     .header {
         padding-top: 25px;
         margin-left: 35px;
@@ -289,26 +294,27 @@ body {
         justify-content: center; 
        
     }
-    .hero{
-        height: 120%;
+    .social-icons a i{
+        font-size: 2.5rem;
     }
-   
+  
     .social-icons {
-        width: 18rem;
+        width: 20rem;
         margin-bottom: 10px;
         height: 2.5rem;
         align-items: center;
         justify-content: center;
-    
-        animation: TopTobutton 1.5s ease-out;
+    animation: TopTobutton 1.5s ease-out;
     }
     .navbar ul li a{
-        font-size: 20px;
+        font-size: 25px;
         font-weight: bold;
+        
     }
+    
     .image img {
-        width: 270px;
-        height: 200px;
+        width: 350px;
+        height: 300px;
         margin-top: 35px;
         border-radius: 20px;
         box-shadow: 0 0 30px white;
@@ -317,10 +323,10 @@ body {
     .about-text button {
         color: white;
         background-color: var(--button-color);
-        height: 2rem;
-        font-size: 16px;
+        height: 2.4rem;
+        font-size: 18px;
         margin: 12px;
-        width: 7rem;
+        width: 9rem;
         border-top-left-radius: 20px;
         border-bottom-right-radius: 20px;
         border: none;
@@ -330,14 +336,14 @@ body {
     
     .about-text h2 {
         color: var(--text-color);
-        font-size: 18px;
+        font-size: 34px;
     }
     .logo img {
-        border: none;
-        width: 120px;
-        height: 120px;
-        transition: .3s linear;
-        animation: animate 1s linear;
+        display: none;
+       
+    }
+    .hero{
+        height: 100%;
     }
     .navbar ul {
         display: block;
@@ -352,11 +358,11 @@ body {
     
     }
     .about-text h4 {
-        font-size: 19px;
+        font-size: 30px;
     }
     
     .about-text h1 {
-       font-size: 20px;
+       font-size: 29px;
     }
     
     
@@ -368,6 +374,7 @@ body {
     background-color: rgb(29, 28, 28);
     width: 100%;
     height: 100%;
+   
 }
 
 .container {
@@ -379,7 +386,7 @@ body {
 
 .container img {
     border-radius: 12px;
-    width: 600px;
+    width: 700px;
     box-shadow: 0 0 20px var(--box-shadow);
 }
 
@@ -388,33 +395,34 @@ body {
     font-size: 23px;
     color: white;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .about-me {
         background-color: rgb(29, 28, 28);
         width: 100%;
         height: 100%;
+        
     }
     
     .container {
         padding-top: 40px;
         align-items: center;
-        display: block;
+       flex-direction: column;
         justify-content: center;
-        margin: 50px;
+       
     }
     
     .container img {
         border-radius: 12px;
-        width: 350px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
         margin-bottom: 15px;
         box-shadow: 0 0 20px var(--box-shadow);
     }
     
     .container p {
       margin: 1rem;
-        font-size: 17px;
-        width: 30rem;
+        font-size: 24px;
+        width: 33rem;
         padding-right: 40px;
         color: white;
     }
@@ -471,17 +479,18 @@ color: rgb(0, 0, 0);
 height: 25px;
 width: 20px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .skills-section{
-        height: 150%;
+        height: 100%;
         width: 100vw;
         background-color: rgb(34, 34, 34);
        
     }
     .skills{
+    
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-      grid-gap: 2px;
+      grid-gap: 10px;
         align-items: center;
         justify-content: center;
         
@@ -491,11 +500,11 @@ width: 20px;
    
             display: flex;
             flex-direction: column;
-            width: 200px;
-            height: 330px;
+            width: 250px;
+            height: 400px;
             margin-left: 28px;
             align-items: center;
-            padding: 10px;
+            padding-top: 10px;
             border-radius: 15px;
             text-align: start;
             
@@ -514,7 +523,7 @@ width: 20px;
     
     
     .container1 p{
-        font-size: 20px;
+        font-size: 25px;
         color: white;
     }
     
@@ -590,31 +599,31 @@ button:hover{
 .second{
     margin-top: 50px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .services{
-    
-        height: 220%;
+    padding-top: 3rem;
+        height: 200%;
         width: 100%;
         background-color: rgb(20, 20, 20);
         
     }
     .containers h2{
-        font-size: 22px;
+        font-size: 25px;
     }
     .containers h1{
-        font-size: 35px;
+        font-size: 37px;
     }
     .containers h4{
-        font-size: 20px;
+        font-size: 23px;
     }
     .containers .div{
         height: 2px;
-        width: 150px;
+        width: 170px;
         background-color: #0ef;
         margin: 15px;
     }
      h5 {
-       font-size: 18px;
+       font-size: 22px;
        margin: 10px;
         
     }
@@ -650,9 +659,9 @@ button:hover{
     .containers{
         margin-bottom: 20px;
        border: 2px solid var(--box-shadow);
-        height: 500px;
+        height: 520px;
         border-radius: 15px;
-        width: 230px;
+        width: 350px;
         padding: 20px;
         color: white;
     }
@@ -717,7 +726,7 @@ textarea{
     border-bottom-left-radius: 20px;
     
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .content{
         padding-top: 80px;
         display: flex;
